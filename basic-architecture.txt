@@ -1,0 +1,12 @@
+
+// Hyperledger 
+
+Examining the chaincode
+	-All the code is written using Async Programming
+	- Initially the docker and composer is installed and the network is started using ./buildAndDeploy script. Once that is achieved 
+	
+	
+CONTROLLER
+	-Connects with the fabric using restful APIs providing CRUD operations. The utility for such is 
+		-Maintaining and validating all the connections between all the entitties in a network
+		-For Admin:Performing any activity requires creating an Admin Connection object 
